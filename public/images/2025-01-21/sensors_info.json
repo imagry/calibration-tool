@@ -1,0 +1,131 @@
+{
+   "sensors" : [
+      {
+         "cam_str" : "LeftEntron",
+         "fps" : "10",
+         "h_fov" : "93.000000",
+         "id" : "0",
+         "index" : "0",
+         "model" : "F003A",
+         "name" : "Solectrix Entron Camera",
+         "resolution" : "1920x1080",
+         "v_fov" : "61.314796"
+      },
+      {
+         "cam_str" : "LeftBackEntron",
+         "fps" : "10",
+         "h_fov" : "93.000000",
+         "id" : "1",
+         "index" : "1",
+         "model" : "F003A",
+         "name" : "Solectrix Entron Camera",
+         "resolution" : "1920x1080",
+         "v_fov" : "61.314796"
+      },
+      {
+         "cam_str" : "FrontEntron",
+         "fps" : "10",
+         "h_fov" : "110.000000",
+         "id" : "2",
+         "index" : "2",
+         "model" : "F003A",
+         "name" : "Solectrix Entron Camera",
+         "resolution" : "1920x1080",
+         "v_fov" : "77.552139"
+      },
+      {
+         "cam_str" : "FrontMidRangeEntron",
+         "fps" : "10",
+         "h_fov" : "58.000000",
+         "id" : "3",
+         "index" : "3",
+         "model" : "F003A",
+         "name" : "Solectrix Entron Camera",
+         "resolution" : "1920x1080",
+         "v_fov" : "34.634834"
+      },
+      {
+         "cam_str" : "FrontLongRangeEntron",
+         "fps" : "10",
+         "h_fov" : "25.500000",
+         "id" : "4",
+         "index" : "4",
+         "model" : "F003A",
+         "name" : "Solectrix Entron Camera",
+         "resolution" : "1920x1080",
+         "v_fov" : "14.507295"
+      },
+      {
+         "cam_str" : "RightBackEntron",
+         "fps" : "10",
+         "h_fov" : "93.000000",
+         "id" : "5",
+         "index" : "5",
+         "model" : "F003A",
+         "name" : "Solectrix Entron Camera",
+         "resolution" : "1920x1080",
+         "v_fov" : "61.314796"
+      },
+      {
+         "cam_str" : "RightEntron",
+         "fps" : "10",
+         "h_fov" : "93.000000",
+         "id" : "6",
+         "index" : "6",
+         "model" : "F003A",
+         "name" : "Solectrix Entron Camera",
+         "resolution" : "1920x1080",
+         "v_fov" : "61.314796"
+      },
+      {
+         "cam_str" : "BackEntron",
+         "fps" : "10",
+         "h_fov" : "130.000000",
+         "id" : "7",
+         "index" : "7",
+         "model" : "F003A",
+         "name" : "Solectrix Entron Camera",
+         "resolution" : "1920x1080_FPS60",
+         "v_fov" : "100.683121"
+      },
+      {
+         "components" : [
+            "speed.csv",
+            "front_left_wheel_speed.csv",
+            "front_right_wheel_speed.csv",
+            "rear_left_wheel_speed.csv",
+            "rear_right_wheel_speed.csv",
+            "steering.csv",
+            "brake.csv",
+            "throttle.csv",
+            "turn_indicator.csv",
+            "driving_mode.csv",
+            "steering_voltage.csv",
+            "brake_voltage.csv",
+            "throttle_voltage.csv"
+         ],
+         "index" : 0,
+         "name" : "CAN"
+      },
+      {
+         "data_udp_port" : 6699,
+         "device_info_udp_port" : 7788,
+         "heading" : 0.0,
+         "index" : 0,
+         "ip_address" : "10.1.2.102",
+         "name" : "Robosense Lidar",
+         "pitch" : 0.0,
+         "position" : "1.919,-0.007,2.00",
+         "roll" : 0.0
+      },
+      {
+         "firmware_version" : "OpenIMU300ZI INS 1.1.1",
+         "gps_antenna_position" : "-0.04,-0.005,1.545",
+         "imu_position" : "-0.055,-0.04,1.24",
+         "index" : 0,
+         "name" : "Open IMU"
+      }
+   ],
+   "vehicle_id" : "NIROEV_HA_02"
+}
+

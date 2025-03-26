@@ -1,0 +1,139 @@
+{
+  "sensors": [
+    {
+      "cam_str": "LeftEntron",
+      "fps": "10",
+      "h_fov": "93.000000",
+      "id": "0",
+      "index": "0",
+      "model": "F003A",
+      "name": "Solectrix Entron Camera",
+      "resolution": "1920x1080",
+      "v_fov": "61.314796"
+    },
+    {
+      "cam_str": "LeftBackEntron",
+      "fps": "10",
+      "h_fov": "93.000000",
+      "id": "1",
+      "index": "1",
+      "model": "F003A",
+      "name": "Solectrix Entron Camera",
+      "resolution": "1920x1080",
+      "v_fov": "61.314796"
+    },
+    {
+      "cam_str": "FrontEntron",
+      "fps": "10",
+      "h_fov": "110.000000",
+      "id": "2",
+      "index": "2",
+      "model": "F003A",
+      "name": "Solectrix Entron Camera",
+      "resolution": "1920x1080",
+      "v_fov": "77.552139"
+    },
+    {
+      "cam_str": "FrontMidRangeEntron",
+      "fps": "10",
+      "h_fov": "58.000000",
+      "id": "3",
+      "index": "3",
+      "model": "F003A",
+      "name": "Solectrix Entron Camera",
+      "resolution": "1920x1080",
+      "v_fov": "34.634834"
+    },
+    {
+      "cam_str": "FrontLongRangeEntron",
+      "fps": "10",
+      "h_fov": "25.500000",
+      "id": "4",
+      "index": "4",
+      "model": "F003A",
+      "name": "Solectrix Entron Camera",
+      "resolution": "1920x1080",
+      "v_fov": "14.507295"
+    },
+    {
+      "cam_str": "RightBackEntron",
+      "fps": "10",
+      "h_fov": "93.000000",
+      "id": "5",
+      "index": "5",
+      "model": "F003A",
+      "name": "Solectrix Entron Camera",
+      "resolution": "1920x1080",
+      "v_fov": "61.314796"
+    },
+    {
+      "cam_str": "RightEntron",
+      "fps": "10",
+      "h_fov": "93.000000",
+      "id": "6",
+      "index": "6",
+      "model": "F003A",
+      "name": "Solectrix Entron Camera",
+      "resolution": "1920x1080",
+      "v_fov": "61.314796"
+    },
+    {
+      "cam_str": "BackEntron",
+      "fps": "10",
+      "h_fov": "130.000000",
+      "id": "7",
+      "index": "7",
+      "model": "F003A",
+      "name": "Solectrix Entron Camera",
+      "resolution": "1920x1080_FPS60",
+      "v_fov": "100.683121"
+    },
+    {
+      "components": [
+        "speed.csv",
+        "steering.csv",
+        "throttle.csv",
+        "brake.csv",
+        "turn_indicator.csv",
+        "driving_mode.csv",
+        "current_throttle_torque.csv",
+        "throttle_torque_command.csv",
+        "throttle_torque_command_driver.csv",
+        "current_throttle_pedal.csv",
+        "current_brake_torque.csv",
+        "brake_torque_command.csv"
+      ],
+      "index": 0,
+      "name": "eCAL_PROTO"
+    },
+    {
+      "heading": 180.0,
+      "index": 0,
+      "info": {
+        "build_date": "2022-09-21T17:47:45Z",
+        "build_rev": "v2.4.0",
+        "image_rev": "ousteros-image-prod-aries-v2.4.0+20220921174636",
+        "initialization_id": 8247300,
+        "prod_line": "OS-1-64-U13",
+        "prod_pn": "840-105461-06",
+        "prod_sn": "122302002391",
+        "status": "RUNNING"
+      },
+      "name": "Ouster Lidar",
+      "pitch": 0.12700000405311584,
+      "position": "-1.846,0.005,1.872",
+      "roll": 0.91399997472763062
+    },
+    {
+      "firmware_version": "v28.04",
+      "index": 0,
+      "lever_arm": "0.692,-0.2435,-0.82",
+      "name": "INS401"
+    },
+    {
+      "index": 0,
+      "name": "NissanIMU"
+    }
+  ],
+  "vehicle_id": "ARIYA_TO_01"
+}

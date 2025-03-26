@@ -1,0 +1,137 @@
+{
+   "sensors" : [
+      {
+         "cam_str" : "LeftEntron",
+         "fps" : "15",
+         "h_fov" : "93.000000",
+         "id" : "0",
+         "index" : "0",
+         "model" : "F003A",
+         "name" : "Solectrix Entron Camera",
+         "resolution" : "1920x1080_FPS60",
+         "v_fov" : "61.314796"
+      },
+      {
+         "cam_str" : "LeftBackEntron",
+         "fps" : "15",
+         "h_fov" : "93.000000",
+         "id" : "1",
+         "index" : "1",
+         "model" : "F003A",
+         "name" : "Solectrix Entron Camera",
+         "resolution" : "1920x1080_FPS60",
+         "v_fov" : "61.314796"
+      },
+      {
+         "cam_str" : "FrontEntron",
+         "fps" : "15",
+         "h_fov" : "110.000000",
+         "id" : "2",
+         "index" : "2",
+         "model" : "F003A",
+         "name" : "Solectrix Entron Camera",
+         "resolution" : "1920x1080_FPS60",
+         "v_fov" : "77.552139"
+      },
+      {
+         "cam_str" : "FrontMidRangeEntron",
+         "fps" : "15",
+         "h_fov" : "58.000000",
+         "id" : "3",
+         "index" : "3",
+         "model" : "F003A",
+         "name" : "Solectrix Entron Camera",
+         "resolution" : "1920x1080_FPS60",
+         "v_fov" : "34.634834"
+      },
+      {
+         "cam_str" : "FrontLongRangeEntron",
+         "fps" : "15",
+         "h_fov" : "25.500000",
+         "id" : "4",
+         "index" : "4",
+         "model" : "F003A",
+         "name" : "Solectrix Entron Camera",
+         "resolution" : "1920x1080_FPS60",
+         "v_fov" : "14.507295"
+      },
+      {
+         "cam_str" : "RightBackEntron",
+         "fps" : "15",
+         "h_fov" : "93.000000",
+         "id" : "5",
+         "index" : "5",
+         "model" : "F003A",
+         "name" : "Solectrix Entron Camera",
+         "resolution" : "1920x1080_FPS60",
+         "v_fov" : "61.314796"
+      },
+      {
+         "cam_str" : "RightEntron",
+         "fps" : "15",
+         "h_fov" : "93.000000",
+         "id" : "6",
+         "index" : "6",
+         "model" : "F003A",
+         "name" : "Solectrix Entron Camera",
+         "resolution" : "1920x1080_FPS60",
+         "v_fov" : "61.314796"
+      },
+      {
+         "cam_str" : "BackEntron",
+         "fps" : "15",
+         "h_fov" : "130.000000",
+         "id" : "7",
+         "index" : "7",
+         "model" : "F003A",
+         "name" : "Solectrix Entron Camera",
+         "resolution" : "1920x1080_FPS60",
+         "v_fov" : "100.683121"
+      },
+      {
+         "components" : [
+            "speed.csv",
+            "front_left_wheel_speed.csv",
+            "front_right_wheel_speed.csv",
+            "rear_left_wheel_speed.csv",
+            "rear_right_wheel_speed.csv",
+            "steering.csv",
+            "brake.csv",
+            "throttle.csv",
+            "turn_indicator.csv",
+            "driving_mode.csv"
+         ],
+         "index" : 0,
+         "name" : "CAN"
+      },
+      {
+         "heading" : 160.0,
+         "index" : 0,
+         "info" : {
+            "base_pn" : "",
+            "base_sn" : "",
+            "build_date" : "2022-06-08T01:26:30Z",
+            "build_rev" : "v2.3.1",
+            "image_rev" : "ousteros-image-prod-aries-v2.3.1+20220608012528.patch-v2.3.x",
+            "initialization_id" : 8247301,
+            "prod_line" : "OS-1-64-U13",
+            "prod_pn" : "840-103575-06",
+            "prod_sn" : "122213000969",
+            "proto_rev" : "",
+            "status" : "RUNNING"
+         },
+         "name" : "Ouster Lidar",
+         "pitch" : 0.0,
+         "position" : "1.022,1.054,1.848",
+         "roll" : 0.0
+      },
+      {
+         "firmware_version" : "v28.04",
+         "index" : 0,
+         "lever_arm" : "0.692,-0.2435,-0.82",
+         "name" : "INS401"
+      }
+   ],
+   "vehicle_id" : "ECENTRO_HA_02"
+}
+
